@@ -3,11 +3,11 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 import { MdClose } from "react-icons/md";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { motion } from "framer-motion";
-import { logoLight} from "../../../assets/images";
 import Image from "../../designLayouts/Image";
 import { navBarList } from "../../../constants";
 import Flex from "../../designLayouts/Flex";
 import logoo from '../../../assets/images/addLogo.png'
+import logo from '../../../assets/images/omtLogo.png'
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(true);
@@ -73,7 +73,7 @@ const Header = () => {
                   <div className="w-full h-full bg-primeColor p-6">
                     <img
                       className="w-28 mb-6"
-                      src={logoLight}
+                      src={logo}
                       alt="logoLight"
                     />
                     <ul className="text-gray-200 flex flex-col gap-2">
